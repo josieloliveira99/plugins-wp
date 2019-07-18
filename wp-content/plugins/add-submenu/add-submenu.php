@@ -47,15 +47,15 @@
  }
 
  function smenu_slug_config_cb(){
-   echo "<h1>Página de configuração do plugin</h1>";
+   echo "<h1>Página de configuração do plugin 1</h1>";
  }
 
  function smenu_slug_theme_cb(){
-   echo "<h1>Página de configuração do plugin</h1>";
+   echo "<h1>Página de configuração do plugin 2</h1>";
  }
  
  function smenu_slug_page_cb(){
-   echo "<h1>Página de configuração do plugin</h1>";
+   echo "<h1>Página de configuração do plugin 3</h1>";
    echo "<pre>";
    print_r(wp_upload_dir());
  }
